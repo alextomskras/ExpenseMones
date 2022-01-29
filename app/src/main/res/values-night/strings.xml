@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="not_registered_click_here_to_register">NOT REGISTERED? CLICK HERE TO REGISTER</string>
+    <string name="login_button_fb_login_page">Login</string>
+    <string name="monthly_budget_login_fragment">Monthly Budget</string>
+    <string name="register_btn_fragm_fb_register">Register</string>
+    <string name="btn_continue">CONTINUE</string>
+</resources>

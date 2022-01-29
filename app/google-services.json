@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "536173726852",
+    "project_id": "expesesmoney",
+    "storage_bucket": "expesesmoney.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536173726852:android:ac9cbe97e526fac27e06d1",
+        "android_client_info": {
+          "package_name": "com.dreamer.expensesmoney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536173726852-s526likbope8rhtohcbkqsd1e24uvoqn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dreamer.expensesmoney",
+            "certificate_hash": "93969531731af7ee58eedf19be7caad5844231bd"
+          }
+        },
+        {
+          "client_id": "536173726852-h8tsu43ulj3kqcuid4s2h6k2jmvjun4i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtqOWtUNxAKjKyZinoODpuzNACP8mM3B8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "536173726852-h8tsu43ulj3kqcuid4s2h6k2jmvjun4i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

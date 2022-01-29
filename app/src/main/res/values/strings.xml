@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Expense</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="item1">Item1</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="navigation_drawer">Navigation Drawer</string>
+    <string name="transactions_on_this_date">Transactions On This Date</string>
+    <string name="_2020">2020</string>
+    <string name="not_registered_click_here_to_register">NOT REGISTERED? CLICK HERE TO REGISTER</string>
+    <string name="login_button_fb_login_page">Login</string>
+    <string name="monthly_budget_login_fragment">Monthly Budget</string>
+    <string name="register_btn_fragm_fb_register">Register</string>
+    <string name="already_registered_click_here_to_login">ALREADY REGISTERED? CLICK HERE TO LOGIN</string>
+    <string name="btn_continue">CONTINUE</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_email">Email</string>
+    <string name="This_is_Pie_Chart_Label">This is Pie Chart Label</string>
+    <string name="text_in_pieChart_centre">Expenses</string>
+    <string name="frag_profile_user_name">User Name</string>
+    <string name="frag_profile_monthly_budget">Monthly Budget</string>
+    <string name="frag_profile_income">Income</string>
+    <string name="frag_profile_btn_save">save</string>
+    <string name="frag_profile_your_budget">Your Budget</string>
+    <string name="before_we_get_started">Before We Get Started</string>
+    <string name="setup_your_budget">SetUp Your Budget</string>
+    <string name="str_amount">Amount*</string>
+    <string name="str_transaction_name">Transaction Name*</string>
+    <string name="str_transaction_date">Transaction Date*</string>
+    <string name="recurring_transaction">Recurring Transaction</string>
+    <string name="from_date">From Date</string>
+    <string name="to_date">To Date</string>
+    <string name="transaction_type">Transaction Type</string>
+    <string name="comment">Comment</string>
+    <string name="expense">Expense</string>
+    <string name="income">income</string>
+    <string name="_27_july_2020">27 July, 2020</string>
+
+    <string name="_200">200</string>
+    <string name="_dot">.</string>
+    <string name="_plus">+</string>
+    <string name="food">Food</string>
+    <string name="_100">100</string>
+    <string name="author">Author</string>
+    <string name="_01_january_2021">01 January 2021</string>
+    <string name="description">Desc</string>
+    <string name="source">Source</string>
+    <string name="title">Title</string>
+    <string name="time">Time</string>
+    <string name="_hi_fg_month_det">Hi,</string>
+    <string name="tV_fg_month_det_shivam">Shivam</string>
+    <string name="net_balance">Net Balance</string>
+    <string name="_00">00</string>
+    <string name="transactions_this_month">Transactions This Month</string>
+    <string name="expMngTitle">Expense Manager</string>
+    <string name="today_s_heading">Today\'s Heading</string>
+    <string name="fg_trans_list_shivam">Shivam</string>
+    <string name="upcomming_transactions">Upcomming Transactions</string>
+    <string name="debit">Debit</string>
+    <string name="credit">Credit</string>
+    <string name="cash">Cash</string>
+</resources>
