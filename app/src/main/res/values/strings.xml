@@ -74,4 +74,6 @@
     <string name="debit">Debit</string>
     <string name="credit">Credit</string>
     <string name="cash">Cash</string>
+    <string name="MAY_month">MAY</string>
+    <string name="view_all">View All</string>
 </resources>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="login_button_fragment">52dp</dimen>
+    <dimen name="str_25SP">25sp</dimen>
 </resources>

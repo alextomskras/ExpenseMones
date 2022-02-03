@@ -4,30 +4,54 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginBottom="56dp"
     android:background="@color/teal_light"
     tools:context=".ui.MonthList.MonthlyTransactionsFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayoutMonthly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UnknownIdInLayout">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/addAppBarMonthly"
+            style="@style/Widget.MaterialComponents.Toolbar.Primary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:title="@string/expMngTitle" />
+    </com.google.android.material.appbar.AppBarLayout>
 
     <ScrollView
         style="@android:style/Widget.Material.Light.ScrollView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
         app:layout_constraintEnd_toEndOf="parent"
-
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints">
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/month_recycler_view"
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:listitem="@layout/fragment_monthly_list" />
+            android:layout_height="wrap_content">
 
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/month_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="56dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:listitem="@layout/fragment_monthly_list" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

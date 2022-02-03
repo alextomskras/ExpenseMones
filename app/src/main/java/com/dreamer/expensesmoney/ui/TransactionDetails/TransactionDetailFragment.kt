@@ -67,8 +67,17 @@ class TransactionDetailFragment : Fragment() {
             }
         }
 
+/* to update to net balace remaining after every addition in the recycler view  and always use this
+ this method to update the shared preference rather then the method used in login fragment */
+//        val sharedPreferences: SharedPreferences =
+//            this.requireActivity().getSharedPreferences("login", Context.MODE_PRIVATE)
+//        val editor: SharedPreferences.Editor = sharedPreferences.edit()
+////        to set the name in the recycler view fragment
+//        name_text.text = sharedPreferences.getString("Name", "illuminati").toString()
+
 
         val properties = mutableListOf<String>()
+
         TransactionType.values().forEach { properties.add(it.name) }
 
         val arrayAdapter =

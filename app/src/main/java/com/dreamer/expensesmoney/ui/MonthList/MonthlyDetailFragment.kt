@@ -112,6 +112,8 @@ class MonthlyDetailFragment : Fragment() {
         val sharedPreferences: SharedPreferences =
             this.requireActivity().getSharedPreferences("login", Context.MODE_PRIVATE)
         val editor: SharedPreferences.Editor = sharedPreferences.edit()
+        ////        to set the name in the recycler view fragment
+        name_text.text = sharedPreferences.getString("Name", "illuminati").toString()
 
         viewModel.sumByMonth.observe(viewLifecycleOwner, Observer {
             var monthBalance = sharedPreferences.getString("Budget", "0")?.toFloat()

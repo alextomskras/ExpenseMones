@@ -5,7 +5,7 @@
 
     <item
         android:id="@+id/profile"
-        android:contentDescription="You can edit transaction"
+        android:contentDescription="You can edit profile"
         android:icon="@drawable/ic_baseline_person_24"
         android:title="Edit Transaction"
         app:showAsAction="ifRoom" />
@@ -19,8 +19,8 @@
 
     <item
         android:id="@+id/news_click"
-        android:contentDescription="You can view calender "
+        android:contentDescription="You can view news "
         android:icon="@drawable/ic_baseline_tv_24"
-        android:title="calender Transaction"
+        android:title="news Transaction"
         app:showAsAction="ifRoom" />
 </menu>

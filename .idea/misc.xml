@@ -20,6 +20,12 @@
         <entry key="..\:/ANDROID-PROJECTS/ExpenseManager/app/src/main/res/layout/list_item.xml" value="0.286231884057971" />
         <entry key="..\:/ANDROID-PROJECTS/ExpenseManager/app/src/main/res/layout/monthly_list_item.xml" value="0.286231884057971" />
         <entry key="..\:/ANDROID-PROJECTS/ExpenseManager/app/src/main/res/layout/news_list_item.xml" value="0.2056159420289855" />
+        <entry key="..\:/ANDROID-PROJECTS/ExpenseManager/app/src/main/res/menu/menu_drawer.xml" value="0.1640625" />
+        <entry key="..\:/ANDROID-PROJECTS/ExpenseManager/app/src/main/res/menu/news_menu.xml" value="0.1640625" />
+        <entry key="..\:/ANDROID-PROJECTS/ExpenseManager/app/src/main/res/menu/profile_edit.xml" value="0.1640625" />
+        <entry key="..\:/ANDROID-PROJECTS/ExpenseManager/app/src/main/res/menu/transaction_add.xml" value="0.1640625" />
+        <entry key="..\:/ANDROID-PROJECTS/ExpenseManager/app/src/main/res/menu/transaction_list.xml" value="0.1640625" />
+        <entry key="..\:/ANDROID-PROJECTS/ExpenseManager/app/src/main/res/menu/transaction_login.xml" value="0.1640625" />
         <entry key="..\:/ANDROID-STUDIO/ExpenseManager-master2 (1)/ExpenseManager-master/app/src/main/res/drawable-v24/button_shape.xml" value="0.375" />
         <entry key="..\:/ANDROID-STUDIO/ExpenseManager-master2 (1)/ExpenseManager-master/app/src/main/res/drawable/bottom_shadow.xml" value="0.33645833333333336" />
         <entry key="..\:/ANDROID-STUDIO/ExpenseManager-master2 (1)/ExpenseManager-master/app/src/main/res/drawable/circular_image.xml" value="0.33645833333333336" />
